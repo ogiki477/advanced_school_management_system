@@ -8,7 +8,9 @@ class AuthController extends Controller
 {
     public function login(Request $request){
 
-        dd("Yooo");
+        $data['meta_title'] = "Login";
+
+        return view('auth.login',$data);
 
     }
 }
