@@ -48,8 +48,8 @@
     
                 <div class="d-flex justify-content-center py-4">
                   <a href="index.html" class="logo d-flex align-items-center w-auto">
-                    <img src="assets/img/pos_logo.png" height="40px" width="40px" alt="">
-                    <span class="d-none d-lg-block">POS System </span>
+                    <img src="assets/img/school_logo.jpg" height="40px" width="40px" alt="">
+                    <span class="d-none d-lg-block">Advanced School_MS</span>
                   </a>
                 </div><!-- End Logo -->
 

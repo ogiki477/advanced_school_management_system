@@ -13,4 +13,16 @@ class AuthController extends Controller
         return view('auth.login',$data);
 
     }
+
+    public function register(Request $request){
+        $data['meta_title'] = 'register';
+        return view('auth.register',$data);
+    }
+
+    public function forgot(Request $request){
+        $data['meta_title'] = 'forgot';
+        return view('auth.forgot',$data);
+    }
+    
+    
 }
